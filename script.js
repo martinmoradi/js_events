@@ -126,11 +126,20 @@ function nine() {
  
     logo.addEventListener('keydown', event => {
       if (event.keyCode === 65) { // A 
+        body.classList.remove("col-4");
+        body.classList.remove("offset-md-4");
+        body.classList.remove("offset-md-8");
         body.classList.add("col-4");
-      } else if(event.keyCode === 89 ) { // Y        
+      } else if(event.keyCode === 89 ) { // Y 
+        body.classList.remove("col-4");
+        body.classList.remove("offset-md-4");
+        body.classList.remove("offset-md-8");       
         body.classList.add("col-4");
         body.classList.add("offset-md-4");
       } else if (event.keyCode === 80) { // P
+        body.classList.remove("col-4");
+        body.classList.remove("offset-md-4");
+        body.classList.remove("offset-md-8");
         body.classList.add("col-4");
         body.classList.add("offset-md-8");
       } else if (event.keyCode === 66) { // B
