@@ -121,7 +121,7 @@ function eight() {
 // --------------------------- 9 ------------------------ //
 
 function nine() {
-  logo = document.querySelector("body > header > div.navbar.navbar-dark.bg-dark.box-shadow > div > a");
+  logo = document.querySelector("div.navbar.navbar-dark.bg-dark.box-shadow > div > a");
   body = document.querySelector("body");
  
     logo.addEventListener('keydown', event => {
